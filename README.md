@@ -3,9 +3,13 @@ France-SelectSomething.tmbundle
 
 Keyboard-based Navigation / Selection of HTML: Attributes, Elements, etc.
 
+Install
+-------
+
+Clone to `~/Library/Application Support/Avian/Bundles/`
+
 TODO:
 -----
 
-* Install how to
-* Document shortcuts
+* Usage / shortcuts
 * Cite original source
