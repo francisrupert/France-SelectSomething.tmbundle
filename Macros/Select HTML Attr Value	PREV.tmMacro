@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>commands</key>
+	<array>
+		<dict>
+			<key>argument</key>
+			<dict>
+				<key>action</key>
+				<string>findPrevious</string>
+				<key>findInProjectIgnoreCase</key>
+				<true/>
+				<key>findString</key>
+				<string>(?&lt;==")[^"]*(?=")|(?&lt;==')[^']*(?=')</string>
+				<key>ignoreCase</key>
+				<true/>
+				<key>regularExpression</key>
+				<true/>
+				<key>replaceAllScope</key>
+				<string>document</string>
+				<key>wrapAround</key>
+				<true/>
+			</dict>
+			<key>command</key>
+			<string>findWithOptions:</string>
+		</dict>
+		<dict>
+			<key>command</key>
+			<string>toggleColumnSelection:</string>
+		</dict>
+	</array>
+	<key>keyEquivalent</key>
+	<string>$@</string>
+	<key>name</key>
+	<string>Select HTML Attr Value	PREV</string>
+	<key>scope</key>
+	<string>text.html, text.xml</string>
+	<key>scopeType</key>
+	<string>local</string>
+	<key>uuid</key>
+	<string>DF08EE33-5F78-4FA2-BD9A-195CD3EDD6DE</string>
+</dict>
+</plist>
